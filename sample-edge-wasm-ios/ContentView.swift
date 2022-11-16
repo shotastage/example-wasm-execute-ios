@@ -31,16 +31,27 @@ struct ContentView: View {
     let mod = try! WASMContainer()
 
     @State var res = 0
+    
+    @State var addFrom = "0"
+    @State var addTo = "0"
 
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            
+            Text("Input Add From + Add To = ?")
+            HStack {
+                TextField("Adder", text: $addTo)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+
+                TextField("Adder", text: $addFrom)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+
+            }
             Text("Result: \(res)")
             Button("Run WASM") {
-                res = try! mod.add(1, 1)
+                res = try! mod.add(Int(addTo)!, Int(addFrom)!)
             }
+            .padding()
         }
         .padding()
     }
