@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43271108292538B4007BB7FA /* sample_edge_wasm_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271107292538B4007BB7FA /* sample_edge_wasm_iosApp.swift */; };
+		4327110A292538B4007BB7FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271109292538B4007BB7FA /* ContentView.swift */; };
+		4327110C292538B5007BB7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4327110B292538B5007BB7FA /* Assets.xcassets */; };
+		4327110F292538B5007BB7FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4327110E292538B5007BB7FA /* Preview Assets.xcassets */; };
+		43271119292538B5007BB7FA /* sample_edge_wasm_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271118292538B5007BB7FA /* sample_edge_wasm_iosTests.swift */; };
+		43271123292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */; };
+		43271125292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43271115292538B5007BB7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432710FC292538B4007BB7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43271103292538B4007BB7FA;
+			remoteInfo = "sample-edge-wasm-ios";
+		};
+		4327111F292538B5007BB7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432710FC292538B4007BB7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43271103292538B4007BB7FA;
+			remoteInfo = "sample-edge-wasm-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43271104292538B4007BB7FA /* sample-edge-wasm-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-edge-wasm-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43271107292538B4007BB7FA /* sample_edge_wasm_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosApp.swift; sourceTree = "<group>"; };
+		43271109292538B4007BB7FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4327110B292538B5007BB7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4327110E292538B5007BB7FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43271114292538B5007BB7FA /* sample-edge-wasm-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-edge-wasm-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43271118292538B5007BB7FA /* sample_edge_wasm_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosTests.swift; sourceTree = "<group>"; };
+		4327111E292538B5007BB7FA /* sample-edge-wasm-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-edge-wasm-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosUITests.swift; sourceTree = "<group>"; };
+		43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43271101292538B4007BB7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43271111292538B5007BB7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4327111B292538B5007BB7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432710FB292538B4007BB7FA = {
+			isa = PBXGroup;
+			children = (
+				43271106292538B4007BB7FA /* sample-edge-wasm-ios */,
+				43271117292538B5007BB7FA /* sample-edge-wasm-iosTests */,
+				43271121292538B5007BB7FA /* sample-edge-wasm-iosUITests */,
+				43271105292538B4007BB7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43271105292538B4007BB7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43271104292538B4007BB7FA /* sample-edge-wasm-ios.app */,
+				43271114292538B5007BB7FA /* sample-edge-wasm-iosTests.xctest */,
+				4327111E292538B5007BB7FA /* sample-edge-wasm-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43271106292538B4007BB7FA /* sample-edge-wasm-ios */ = {
+			isa = PBXGroup;
+			children = (
+				43271107292538B4007BB7FA /* sample_edge_wasm_iosApp.swift */,
+				43271109292538B4007BB7FA /* ContentView.swift */,
+				4327110B292538B5007BB7FA /* Assets.xcassets */,
+				4327110D292538B5007BB7FA /* Preview Content */,
+			);
+			path = "sample-edge-wasm-ios";
+			sourceTree = "<group>";
+		};
+		4327110D292538B5007BB7FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4327110E292538B5007BB7FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43271117292538B5007BB7FA /* sample-edge-wasm-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				43271118292538B5007BB7FA /* sample_edge_wasm_iosTests.swift */,
+			);
+			path = "sample-edge-wasm-iosTests";
+			sourceTree = "<group>";
+		};
+		43271121292538B5007BB7FA /* sample-edge-wasm-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */,
+				43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */,
+			);
+			path = "sample-edge-wasm-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43271103292538B4007BB7FA /* sample-edge-wasm-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43271128292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-ios" */;
+			buildPhases = (
+				43271100292538B4007BB7FA /* Sources */,
+				43271101292538B4007BB7FA /* Frameworks */,
+				43271102292538B4007BB7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-edge-wasm-ios";
+			productName = "sample-edge-wasm-ios";
+			productReference = 43271104292538B4007BB7FA /* sample-edge-wasm-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43271113292538B5007BB7FA /* sample-edge-wasm-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4327112B292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-iosTests" */;
+			buildPhases = (
+				43271110292538B5007BB7FA /* Sources */,
+				43271111292538B5007BB7FA /* Frameworks */,
+				43271112292538B5007BB7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43271116292538B5007BB7FA /* PBXTargetDependency */,
+			);
+			name = "sample-edge-wasm-iosTests";
+			productName = "sample-edge-wasm-iosTests";
+			productReference = 43271114292538B5007BB7FA /* sample-edge-wasm-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4327111D292538B5007BB7FA /* sample-edge-wasm-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4327112E292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-iosUITests" */;
+			buildPhases = (
+				4327111A292538B5007BB7FA /* Sources */,
+				4327111B292538B5007BB7FA /* Frameworks */,
+				4327111C292538B5007BB7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43271120292538B5007BB7FA /* PBXTargetDependency */,
+			);
+			name = "sample-edge-wasm-iosUITests";
+			productName = "sample-edge-wasm-iosUITests";
+			productReference = 4327111E292538B5007BB7FA /* sample-edge-wasm-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432710FC292538B4007BB7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					43271103292538B4007BB7FA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					43271113292538B5007BB7FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 43271103292538B4007BB7FA;
+					};
+					4327111D292538B5007BB7FA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 43271103292538B4007BB7FA;
+					};
+				};
+			};
+			buildConfigurationList = 432710FF292538B4007BB7FA /* Build configuration list for PBXProject "sample-edge-wasm-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432710FB292538B4007BB7FA;
+			productRefGroup = 43271105292538B4007BB7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43271103292538B4007BB7FA /* sample-edge-wasm-ios */,
+				43271113292538B5007BB7FA /* sample-edge-wasm-iosTests */,
+				4327111D292538B5007BB7FA /* sample-edge-wasm-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43271102292538B4007BB7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4327110F292538B5007BB7FA /* Preview Assets.xcassets in Resources */,
+				4327110C292538B5007BB7FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43271112292538B5007BB7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4327111C292538B5007BB7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43271100292538B4007BB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4327110A292538B4007BB7FA /* ContentView.swift in Sources */,
+				43271108292538B4007BB7FA /* sample_edge_wasm_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43271110292538B5007BB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43271119292538B5007BB7FA /* sample_edge_wasm_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4327111A292538B5007BB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43271123292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift in Sources */,
+				43271125292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43271116292538B5007BB7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43271103292538B4007BB7FA /* sample-edge-wasm-ios */;
+			targetProxy = 43271115292538B5007BB7FA /* PBXContainerItemProxy */;
+		};
+		43271120292538B5007BB7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43271103292538B4007BB7FA /* sample-edge-wasm-ios */;
+			targetProxy = 4327111F292538B5007BB7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43271126292538B5007BB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43271127292538B5007BB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43271129292538B5007BB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sample-edge-wasm-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4327112A292538B5007BB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sample-edge-wasm-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4327112C292538B5007BB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-edge-wasm-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sample-edge-wasm-ios";
+			};
+			name = Debug;
+		};
+		4327112D292538B5007BB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-edge-wasm-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sample-edge-wasm-ios";
+			};
+			name = Release;
+		};
+		4327112F292538B5007BB7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sample-edge-wasm-ios";
+			};
+			name = Debug;
+		};
+		43271130292538B5007BB7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T4P9D4TB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.magicallab.sample-edge-wasm-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sample-edge-wasm-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432710FF292538B4007BB7FA /* Build configuration list for PBXProject "sample-edge-wasm-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43271126292538B5007BB7FA /* Debug */,
+				43271127292538B5007BB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43271128292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43271129292538B5007BB7FA /* Debug */,
+				4327112A292538B5007BB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4327112B292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4327112C292538B5007BB7FA /* Debug */,
+				4327112D292538B5007BB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4327112E292538B5007BB7FA /* Build configuration list for PBXNativeTarget "sample-edge-wasm-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4327112F292538B5007BB7FA /* Debug */,
+				43271130292538B5007BB7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432710FC292538B4007BB7FA /* Project object */;
+}
