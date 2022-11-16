@@ -14,6 +14,7 @@
 		43271119292538B5007BB7FA /* sample_edge_wasm_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271118292538B5007BB7FA /* sample_edge_wasm_iosTests.swift */; };
 		43271123292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */; };
 		43271125292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */; };
+		4327113C292543F2007BB7FA /* WasmInterpreter in Frameworks */ = {isa = PBXBuildFile; productRef = 4327113B292543F2007BB7FA /* WasmInterpreter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4327113C292543F2007BB7FA /* WasmInterpreter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "sample-edge-wasm-ios";
+			packageProductDependencies = (
+				4327113B292543F2007BB7FA /* WasmInterpreter */,
+			);
 			productName = "sample-edge-wasm-ios";
 			productReference = 43271104292538B4007BB7FA /* sample-edge-wasm-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 432710FB292538B4007BB7FA;
+			packageReferences = (
+				4327113A292543F2007BB7FA /* XCRemoteSwiftPackageReference "wasm-interpreter-apple" */,
+			);
 			productRefGroup = 43271105292538B4007BB7FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4327113A292543F2007BB7FA /* XCRemoteSwiftPackageReference "wasm-interpreter-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shareup/wasm-interpreter-apple.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4327113B292543F2007BB7FA /* WasmInterpreter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4327113A292543F2007BB7FA /* XCRemoteSwiftPackageReference "wasm-interpreter-apple" */;
+			productName = WasmInterpreter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 432710FC292538B4007BB7FA /* Project object */;
 }
