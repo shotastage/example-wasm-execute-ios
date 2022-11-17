@@ -15,6 +15,7 @@
 		43271123292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */; };
 		43271125292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */; };
 		4327113C292543F2007BB7FA /* WasmInterpreter in Frameworks */ = {isa = PBXBuildFile; productRef = 4327113B292543F2007BB7FA /* WasmInterpreter */; };
+		4357447E2925C4F700CA9EBB /* program.wb64 in Resources */ = {isa = PBXBuildFile; fileRef = 4357447D2925C4F700CA9EBB /* program.wb64 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4327111E292538B5007BB7FA /* sample-edge-wasm-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-edge-wasm-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43271122292538B5007BB7FA /* sample_edge_wasm_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosUITests.swift; sourceTree = "<group>"; };
 		43271124292538B5007BB7FA /* sample_edge_wasm_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_edge_wasm_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4357447D2925C4F700CA9EBB /* program.wb64 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = program.wb64; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		43271106292538B4007BB7FA /* sample-edge-wasm-ios */ = {
 			isa = PBXGroup;
 			children = (
+				4357447D2925C4F700CA9EBB /* program.wb64 */,
 				43271107292538B4007BB7FA /* sample_edge_wasm_iosApp.swift */,
 				43271109292538B4007BB7FA /* ContentView.swift */,
 				4327110B292538B5007BB7FA /* Assets.xcassets */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4357447E2925C4F700CA9EBB /* program.wb64 in Resources */,
 				4327110F292538B5007BB7FA /* Preview Assets.xcassets in Resources */,
 				4327110C292538B5007BB7FA /* Assets.xcassets in Resources */,
 			);

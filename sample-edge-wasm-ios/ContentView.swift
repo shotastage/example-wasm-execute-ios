@@ -21,6 +21,23 @@ struct WASMContainer {
     }
 
     private static var wasm: [UInt8] {
+        
+        
+        /*
+         guard let fileURL = Bundle.main.url(forResource: "program", withExtension: "wb64")  else {
+             //fatalError("File Not Found")
+             
+             
+         }
+
+         guard let fileContents = try? String(contentsOf: fileURL) else {
+             print("FIle content reading error")
+             //fatalError("File Parsing Error")
+         }
+
+         
+         */
+        
         let base64 = "AGFzbQEAAAABBwFgAn9/AX8DAgEABwcBA2FkZAAACgkBBwAgACABags="
         return [UInt8](Data(base64Encoded: base64)!)
     }
